@@ -2,7 +2,7 @@ GBDK_PATH = /opt/gbdk
 CC = $(GBDK_PATH)/bin/lcc
 
 # Project Name
-PROJECT = dino_recreation
+PROJECT = main
 
 # Directories
 SRCDIR = src
@@ -18,13 +18,6 @@ ROM = $(BUIILDDIR)/$(PROJECT).gb
 
 # Default target
 all: $(BUIILDDIR) $(OBJDIR) $(ROM)
-
-# Create directories automatically
-$(BUIILDDIR):
-	mkdir -p $(BUIILDDIR)
-
-$(OBJDIR):
-	mkdir -p $(OBJDIR)
 
 # Link object files into the final Game Boy ROM
 $(ROM): $(OBJS)
