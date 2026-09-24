@@ -1,0 +1,15 @@
+# GBDK and compiler artifacts
+*.ihx
+*.noi
+*.map
+*.sym
+*.asm
+*.rel
+*.lst
+*.cdb
+obj/
+build/
+
+# IDE files
+.vscode/
+.idea/
