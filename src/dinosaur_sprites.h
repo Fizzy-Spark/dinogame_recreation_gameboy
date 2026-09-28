@@ -23,7 +23,6 @@
 */
 #include <gb/gb.h>
 #include <gb/metasprites.h>
-
 /* Bank of tiles. */
 #define dinosaur_tilesBank 0
 /* Start of tile array. */
